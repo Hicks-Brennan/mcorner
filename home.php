@@ -11,7 +11,16 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Melinda's Corner</h1>
+        <h1>Lindy's Corner</h1>
+		<nav>
+			<ul>
+                <a href="#"><li>Home</li></a>
+				<a href="#"><li>About Me</li></a>
+			</ul>
+        </nav>
+        <h2>Be the Best You Can Be</h2>
+        <a href="#"><h3>Purchase Here</h3></a>
+        <img src="./mcorner/pics/small_book_pic.jpg" alt="Front Cover of Book">
         <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
     </body>
 
