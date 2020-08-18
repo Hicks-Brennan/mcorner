@@ -9,6 +9,19 @@ body {
     font-family: 'Lemonada', cursive;
 }
 
-h1 { 
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 { 
     font-family: 'Chilanka', cursive;
+}
+
+img, p, li, ul {
+    margin: 0;
+    padding : 0;
+  }
+
+nav ul li {
+   list-style: none;
 }
