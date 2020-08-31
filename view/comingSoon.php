@@ -1,8 +1,9 @@
 <!doctype html>
+<?php $thisPage="Coming Soon"; ?>
 <html lang="en-us">
 
 <head>
-<title>Server Error</title>
+<title>Coming Soon</title>
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/mcorner/common/head.php'; ?>
 <style>
     .error{
@@ -18,8 +19,8 @@
     <header id="page_header"> <?php include $_SERVER['DOCUMENT_ROOT'] . '/mcorner/common/header.php'; ?> </header>
     <div class="content">
     <main class='error'>
-        <h1>Server Error</h1>
-        <p>Sorry, the server experienced a problem.</p>
+        <h1>This Feature is Coming Soon</h1>
+        <p>Unfortunately we aren't quite ready for you yet.  We are making some changes and should have this up and running soon. Thank you for your patience.</p>
     </main>
     <hr class='contentHr'>
     <footer id="footer"> <?php include $_SERVER['DOCUMENT_ROOT'] . '/mcorner/common/footer.php'; ?>

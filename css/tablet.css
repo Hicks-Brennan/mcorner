@@ -1,0 +1,58 @@
+@media only screen and (min-width: 600px) {
+    body {
+        text-align: left;
+        font-size: 150%;
+    }
+    #navList, .content {
+        text-align: center;
+    }
+
+    #navList li {
+        display: inline list-item;
+        margin: 10%;
+    }
+    
+    #navList {
+        padding: 20px;
+        width: 95%
+    }
+
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "bookTitle     bookTitle"
+        "Profession    Profession"
+        "CTA           CTA"
+        "bookImage     bookDesc";
+    }
+
+    #bookTitle {
+        grid-area: bookTitle;
+        font-size: 200%;
+    }
+    
+    #author {
+        grid-area: Profession;
+    }
+    
+    #authorName {
+        margin-bottom: 0;
+    }
+    
+    #ctaButton {
+        grid-area: CTA;
+    }
+    
+    #book {
+        grid-area: bookImage;   
+        align-self: center;
+        justify-self: center;
+    }
+    
+    .text {
+        grid-area: bookDesc;
+        font-size: 50%;
+    }
+}

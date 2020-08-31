@@ -6,7 +6,7 @@
 session_start();
 
 $action = filter_input(INPUT_POST, 'action');
-if($action=null){
+if(!$action){
     $action = filter_input(INPUT_GET, 'action');
 }
 
@@ -25,12 +25,17 @@ if($action=null){
     }
 
 switch($action) {
-    case 'something':
+    case 'aboutMe':
+        include 'view/aboutMe.php';
+    break;
+
+    case 'comingSoon':
+        include 'view/comingSoon.php';
     break;
     
     default:
         include 'view/home.php';
-break;
+
 }
 
 
