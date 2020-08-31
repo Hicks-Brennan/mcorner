@@ -1,13 +1,35 @@
 <?php
 
-$action=null;
+//lindy's corner controller
+
+//create a session
+session_start();
+
+$action = filter_input(INPUT_POST, 'action');
+if($action=null){
+    $action = filter_input(INPUT_GET, 'action');
+}
+
+   // Get the database connection file
+   require_once 'library/connections.php';
+   // Get the acme model for use as needed
+//    require_once 'model/lindy-model.php';
+   // Get the functions library
+   require_once 'library/functions.php';
+
+    if (isset($_SESSION['loggedin'])) {
+    $clientFirstname = $_SESSION['clientData']['clientFirstname'];
+    $clientLastname = $_SESSION['clientData']['clientLastname'];
+    $clientEmail = $_SESSION['clientData']['clientEmail'];
+    $clientLevel = $_SESSION['clientData']['clientLevel'];
+    }
 
 switch($action) {
     case 'something':
     break;
     
     default:
-        include 'home.php';
+        include 'view/home.php';
 break;
 }
 

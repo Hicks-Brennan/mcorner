@@ -1,0 +1,106 @@
+/*mobile Design*/
+
+html {
+    background-color: #F2E2D2;
+}
+
+body {
+    margin: 0 auto;
+    padding: 2.5%;
+    text-align: center;
+    font-family: 'Lemonada', cursive;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+    font-family: 'Chilanka', cursive;
+}
+
+img, p, li, ul {
+    margin: 0;
+    padding : 0;
+  }
+
+  #navList {
+    background-color: #698996;
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 10em;
+      padding: 10px;
+  }
+
+li:nth-last-child(1) {
+   list-style: none;
+    margin-bottom: 10%;
+}
+
+footer img{
+    max-width: 2em;
+}
+
+.content {
+    background-color: #698996;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+.text {
+    background-color: #F2E2D2;
+    border-radius: 10px;
+    margin: 10px;
+    color: #74ABB9;
+    padding: 2%;
+}
+
+footer h1 {
+    color: #F2E2D2;
+}
+
+.contentHr {
+    color: #F2E2D2;
+}
+
+#title {
+    color: #EBBAB9;
+}
+
+#profession {
+    font-size: 65%;
+    margin-left: 25%;
+}
+
+#authorName {
+    font-size: 200%;
+    margin-top: 0;
+}
+
+#ctaButton {
+    background-color: #EBBAB9;
+    margin: 5px auto;
+    width: 18em;
+    border-radius: 10px;
+}
+
+#callToAction {
+    margin: 0;
+    padding: 10px;
+    color: #698996;
+    font-size: 2em;
+}
+
+#bookTitle {
+    font-size: 1.75em;
+    margin-bottom: 0;
+}
+
+img {
+    border-radius: 10px;
+    margin: 10px;
+}
